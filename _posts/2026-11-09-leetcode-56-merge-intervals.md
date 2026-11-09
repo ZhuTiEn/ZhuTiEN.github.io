@@ -80,7 +80,7 @@ class Solution {
 ### 4.1 `int[][]`、`int[]` 与 `int` 的关系
 
 ```java
-int[][] intervals = {{1, 3}, {2, 6}, {8, 10}};
+int[][] intervals = {% raw %}{{1, 3}, {2, 6}, {8, 10}}{% endraw %};
 
 int[] first = intervals[0]; // 第一个区间，即 {1, 3}
 int start = intervals[0][0]; // 1：左端点
